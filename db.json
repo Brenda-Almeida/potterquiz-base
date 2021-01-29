@@ -1,6 +1,6 @@
 {
     "bg": "https://images.unsplash.com/photo-1583997052301-0042b33fc598?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1189&q=80",
-    "title": "Quiz Harry Potter",
+    "title": "Harry Potter Quiz",
     "description": "Teste os seus conhecimentos sobre Harry Potter",
     "questions": [
       {
@@ -31,8 +31,8 @@
     ],
     "theme": {
       "colors": {
-        "primary": "#eeba32",
-        "secondary": "#beb07b",
+        "primary": "#806D4D",
+        "secondary": "#eeba32",
         "mainBg": "#193b53",
         "contrastText": "#FFFFFF",
         "wrong": "#561b1f",
