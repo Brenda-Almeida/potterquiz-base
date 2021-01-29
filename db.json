@@ -1,0 +1,43 @@
+{
+    "bg": "https://images.unsplash.com/photo-1583997052301-0042b33fc598?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1189&q=80",
+    "title": "Quiz Harry Potter",
+    "description": "Teste os seus conhecimentos sobre Harry Potter",
+    "questions": [
+      {
+        "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT3i/giphy.gif",
+        "title": "Qual o nome completo do professor Dumbledore?",
+        "description": "Essa é pra aquecer",
+        "answer": 2,
+        "alternatives": [
+          ".elemento",
+          "*elemento",
+          "#elemento",
+          "%elemento"
+        ]
+      },
+      {
+        "image": "https://media4.giphy.com/media/5tlq0pRndGu8U/giphy.gif?cid=ecf05e47ulmrd76jae96f01m5k7u2zn3gt9eyxywpk4j02ul&rid=giphy.gif",
+        "title": "Como fazer um background gradiente com css?",
+        "description": "Faz tempo em haha",
+        "answer": 0,
+        "alternatives": [
+           "background: linear-gradient(#e66465, #9198e5);",
+           "background: gradient(#e66465, #9198e5);"
+        ]
+      }
+    ],
+    "external": [
+      ""
+    ],
+    "theme": {
+      "colors": {
+        "primary": "#eeba32",
+        "secondary": "#beb07b",
+        "mainBg": "#193b53",
+        "contrastText": "#FFFFFF",
+        "wrong": "#561b1f",
+        "success": "#22403d"
+      },
+      "borderRadius": "4px"
+    }
+  }
