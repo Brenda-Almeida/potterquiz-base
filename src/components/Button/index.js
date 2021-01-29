@@ -3,7 +3,7 @@ import styled from 'styled-components';
 // eslint-disable-next-line import/no-extraneous-dependencies
 import PropTypes from 'prop-types';
 
-const ButtonBase = styled.button`
+const Button = styled.button`
   width: 100%;
   padding: 12px 16px;
   font-weight: bold;
@@ -27,20 +27,9 @@ const ButtonBase = styled.button`
   }
 `;
 
-export default function Button({ type, disabled, ...props }) {
-  return (
-    <div>
-      <ButtonBase
-        type={type}
-        disabled={disabled}
-        // eslint-disable-next-line react/jsx-props-no-spreading
-        {...props}
-      />
-    </div>
-  );
-}
-
 Button.propTypes = {
-  disabled: PropTypes.func.isRequired,
-  type: PropTypes.string.isRequired,
+  type: PropTypes.oneOf(['submit', 'type', 'button']).isRequired,
+  children: PropTypes.node.isRequired,
 };
+
+export default Button;
