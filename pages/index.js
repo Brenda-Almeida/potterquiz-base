@@ -70,7 +70,7 @@ export default function Home() {
         <Footer />
 
       </QuizContainer>
-      <GitHubCorner projectUrl="https://github.com/omariosou" />
+      <GitHubCorner projectUrl="https://github.com/Brenda-Almeida" />
     </QuizBackground>
   );
 }
