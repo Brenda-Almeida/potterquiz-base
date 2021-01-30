@@ -52,7 +52,48 @@ export default function Home() {
         <Widget>
           <Widget.Content>
             <h1>Quizes da Galera</h1>
-            <p>Lorem ipsum dolor sit amet ....</p>
+
+            {/* Teste design para o quizes da galera -> futuro componente */}
+            <p>
+              <a
+                href={db.external[1]}
+                style={{
+                  textDecoration: 'none',
+                  color: '#ffffff',
+                  width: '100%',
+                  display: 'block',
+                  backgroundColor: '#806D4D',
+                  padding: '10px 15px',
+                  fontSize: '16px',
+                  borderRadius: '4px',
+                  border: '0',
+                  outline: '0',
+                  cursor: 'pointer',
+                }}
+              >
+                aluraquiz-css
+              </a>
+            </p>
+            <p>
+              <a
+                href={db.external[1]}
+                style={{
+                  textDecoration: 'none',
+                  color: '#ffffff',
+                  width: '100%',
+                  display: 'block',
+                  backgroundColor: '#806D4D',
+                  padding: '10px 15px',
+                  fontSize: '16px',
+                  borderRadius: '4px',
+                  border: '0',
+                  outline: '0',
+                  cursor: 'pointer',
+                }}
+              >
+                aluraquiz-marvel
+              </a>
+            </p>
           </Widget.Content>
         </Widget>
 

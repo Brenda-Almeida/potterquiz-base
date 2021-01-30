@@ -28,7 +28,7 @@
       {
         "image": "https://media.giphy.com/media/2JTJ3jA3N6rDy/giphy.gif",
         "title": "Qual o nome do dragão do Hagrid",
-        "description": "Obs. O nome Hragrid  que Hagrid usava",
+        "description": "O nome que Hagrid usava",
         "answer": 2,
         "alternatives": [
            "Nobertus",
@@ -41,7 +41,7 @@
         "image": "https://media.giphy.com/media/h5NLPVn3rg0Rq/giphy.gif",
         "title": "Qual é a segunda Relíquia da Morte",
         "description": "Conforme a história",
-        "answer": 1,
+        "answer": 0,
         "alternatives": [
            "Pedra da Ressurreição",
            "Varinha das Varinhas",
@@ -50,16 +50,17 @@
       }
     ],
     "external": [
-      ""
+      "https://aluraquiz-css.omariosouto.vercel.app/",
+      "https://aluraquiz-marvel.omariosouto.vercel.app/"
     ],
     "theme": {
       "colors": {
         "primary": "#806D4D",
-        "secondary": "#eeba32",
-        "mainBg": "#193b53",
+        "secondary": "#e6a815",
+        "mainBg": "#0b1e58",
         "contrastText": "#FFFFFF",
-        "wrong": "#561b1f",
-        "success": "#22403d"
+        "wrong": "#960701",
+        "success": "#083d0f"
       },
       "borderRadius": "4px"
     }
