@@ -4,25 +4,48 @@
     "description": "Teste os seus conhecimentos sobre Harry Potter",
     "questions": [
       {
-        "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT3i/giphy.gif",
+        "image": "https://media4.giphy.com/media/5tlq0pRndGu8U/giphy.gif?cid=ecf05e47ulmrd76jae96f01m5k7u2zn3gt9eyxywpk4j02ul&rid=giphy.gif",
         "title": "Qual o nome completo do professor Dumbledore?",
         "description": "Essa é pra aquecer",
-        "answer": 2,
+        "answer": 0,
         "alternatives": [
-          ".elemento",
-          "*elemento",
-          "#elemento",
-          "%elemento"
+          "Albus Percival Wulfric Brian Dumbledore",
+          "Albus Wulfric Percival Brian Dumbledore",
+          "Albus Wulfric Brian Percival Dumbledore",
+          "Albus Brian Percival Wulfric Dumbledore"
         ]
       },
       {
-        "image": "https://media4.giphy.com/media/5tlq0pRndGu8U/giphy.gif?cid=ecf05e47ulmrd76jae96f01m5k7u2zn3gt9eyxywpk4j02ul&rid=giphy.gif",
-        "title": "Como fazer um background gradiente com css?",
-        "description": "Faz tempo em haha",
-        "answer": 0,
+        "image": "https://media.giphy.com/media/ffynNaSYx2yTC/giphy.gif",
+        "title": "Qual o lado da cicatriz do Harry Potter",
+        "description": "Cuidado para não confundir os lados",
+        "answer": 1,
         "alternatives": [
-           "background: linear-gradient(#e66465, #9198e5);",
-           "background: gradient(#e66465, #9198e5);"
+           "Esquerdo",
+           "Direito"
+        ]
+      },
+      {
+        "image": "https://media.giphy.com/media/2JTJ3jA3N6rDy/giphy.gif",
+        "title": "Qual o nome do dragão do Hagrid",
+        "description": "Obs. O nome Hragrid  que Hagrid usava",
+        "answer": 2,
+        "alternatives": [
+           "Nobertus",
+           "Noberto",
+           "Norberto",
+           "Norbert"
+        ]
+      },
+      {
+        "image": "https://media.giphy.com/media/h5NLPVn3rg0Rq/giphy.gif",
+        "title": "Qual é a segunda Relíquia da Morte",
+        "description": "Conforme a história",
+        "answer": 1,
+        "alternatives": [
+           "Pedra da Ressurreição",
+           "Varinha das Varinhas",
+           "Capa da Invisibilidade"
         ]
       }
     ],
