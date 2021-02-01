@@ -60,12 +60,12 @@ Widget.Topic = styled.a`
   border-radius: ${({ theme }) => `${theme.borderRadius}`};
   transition: .3s;
   display: block;
+  
 
   &:hover,
   &:focus {
     opacity: .5;
   }
-
 `;
 
 export default Widget;

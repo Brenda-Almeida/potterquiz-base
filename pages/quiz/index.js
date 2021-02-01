@@ -1,12 +1,13 @@
 /* eslint-disable react/prop-types */
 import React from 'react';
-import db from '../db.json';
-import Widget from '../src/components/Widget';
-import QuizLogo from '../src/components/QuizLogo';
-import QuizBackground from '../src/components/QuizBackground';
-import QuizContainer from '../src/components/QuizContainer';
-import AlternativesForm from '../src/components/AlternativesForm';
-import Button from '../src/components/Button';
+import db from '../../db.json';
+import Widget from '../../src/components/Widget';
+import QuizLogo from '../../src/components/QuizLogo';
+import QuizBackground from '../../src/components/QuizBackground';
+import QuizContainer from '../../src/components/QuizContainer';
+import AlternativesForm from '../../src/components/AlternativesForm';
+import Button from '../../src/components/Button';
+import BackLinkArrow from '../../src/components/BackLinkArrow';
 
 function ResultWidget({ results }) {
   return (
@@ -52,7 +53,16 @@ function LoadingWidget() {
       </Widget.Header>
 
       <Widget.Content>
-        [Desafio do Loading]
+        <img
+          alt="Descrição"
+          style={{
+            width: '50px',
+            height: '50px',
+            display: 'block',
+            margin: 'auto',
+          }}
+          src="https://fellipe.com/slides/performance-javascript/i/loading.gif"
+        />
       </Widget.Content>
     </Widget>
   );
@@ -74,6 +84,7 @@ function QuestionWidget({
   return (
     <Widget>
       <Widget.Header>
+        <BackLinkArrow href="/" />
         <h3>
           {`Pergunta ${questionIndex + 1} de ${totalQuestions}`}
         </h3>
